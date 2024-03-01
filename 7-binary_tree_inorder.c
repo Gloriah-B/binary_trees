@@ -1,11 +1,4 @@
-#include <stdlib.h>
-
-typedef struct binary_tree_s {
-    int n;
-    struct binary_tree_s *parent;
-    struct binary_tree_s *left;
-    struct binary_tree_s *right;
-} binary_tree_t;
+#include "binary_trees.h"
 
 /**
  * binary_tree_inorder - goes through a binary tree using in-order traversal
